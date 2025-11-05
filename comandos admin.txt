@@ -1,0 +1,129 @@
+===============================
+ COMANDOS DE ADMIN – ANEXO BOT
+===============================
+
+Observação importante:
+- TODOS esses comandos só funcionam para IDs que estão em ADMIN_IDS no código.
+- Sempre enviar os comandos no chat do próprio bot (@AnexoLookupBot).
+
+--------------------------------
+1) GERAR TOKENS NOVOS
+--------------------------------
+
+Comando:
+  /criar_token <dias> <quantidade>
+  (atalho: /gerar_token)
+
+Função:
+  Gera vários TOKENS NOVOS de uma vez e salva no banco como "não usados".
+
+Parâmetros:
+  <dias>       = 7, 15 ou 30  (duração do plano em dias)
+  <quantidade> = entre 1 e 50 tokens por vez
+
+Exemplos:
+  /criar_token 7 5       -> cria 5 tokens de 7 dias
+  /criar_token 30 10     -> cria 10 tokens de 30 dias
+  /gerar_token 15 3      -> cria 3 tokens de 15 dias
+
+Observações:
+  - Só ADM pode usar.
+  - Os tokens gerados aparecem depois no comando /tokens_livres.
+
+
+--------------------------------
+2) LISTAR TOKENS LIVRES
+--------------------------------
+
+Comando:
+  /tokens_livres
+
+Função:
+  Mostra uma lista de TOKENS AINDA NÃO UTILIZADOS,
+  organizada por plano (7, 15 e 30 dias).
+  Mostra até os últimos 50 tokens gerados.
+
+Exemplo:
+  /tokens_livres
+
+Uso prático:
+  - Ver quais tokens ainda pode vender / entregar para clientes.
+
+
+--------------------------------
+3) BLOQUEIO TEMPORÁRIO MANUAL
+--------------------------------
+
+Comando:
+  /tempban <telegram_id> <horas> [motivo]
+
+Função:
+  Bloqueia temporariamente um usuário. Enquanto estiver bloqueado,
+  qualquer comando que ele mandar no bot vai retornar mensagem de bloqueio.
+
+Parâmetros:
+  <telegram_id> = ID numérico do usuário (ele vê com /meu_id)
+  <horas>       = tempo de bloqueio (pode ser 1, 2, 24, 0.5, etc)
+  [motivo]      = opcional, texto explicando o motivo
+
+Exemplos:
+  /tempban 123456789 1 Uso indevido do bot
+    -> bloqueia o ID 123456789 por 1 hora
+
+  /tempban 123456789 24
+    -> bloqueia por 24 horas com motivo padrão "Manual (admin)"
+
+Observações:
+  - O usuário bloqueado vê o motivo e o tempo restante quando tenta usar o bot.
+  - Usa a mesma tabela de bloqueios do sistema automático
+    (flood, token falso, tentativa de reutilizar token, etc).
+
+
+--------------------------------
+4) DESBLOQUEAR USUÁRIO (UNBAN)
+--------------------------------
+
+Comando:
+  /unban <telegram_id>
+
+Função:
+  Remove o bloqueio temporário de um usuário ANTES do tempo acabar.
+
+Parâmetros:
+  <telegram_id> = ID numérico do usuário.
+
+Exemplos:
+  /unban 123456789
+    -> libera o usuário 123456789, mesmo que ainda tivesse horas de bloqueio.
+
+Observações:
+  - Útil quando você vê que o bloqueio foi engano
+    ou já conversou com a pessoa e decidiu liberar.
+
+
+--------------------------------
+5) LISTAR BLOQUEIOS ATIVOS
+--------------------------------
+
+Comando:
+  /banlist
+
+Função:
+  Mostra todos os usuários que estão BLOQUEADOS nesse momento,
+  com:
+    - Telegram ID
+    - Motivo do bloqueio
+    - Tempo restante aproximado (horas e minutos)
+
+Exemplo:
+  /banlist
+
+Uso prático:
+  - Ver quem está bloqueado por flood.
+  - Ver quem está bloqueado por tentar token falso.
+  - Conferir bloqueios manuais que você aplicou com /tempban.
+
+
+===============================
+ FIM DO ARQUIVO
+===============================

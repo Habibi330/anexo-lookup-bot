@@ -1,0 +1,59 @@
+2025-11-05 09:58:01.987 | INFO     | __main__:<module>:273 - Bot iniciado.
+2025-11-05 10:02:25.632 | INFO     | __main__:<module>:273 - Bot iniciado.
+2025-11-05 10:09:42.251 | INFO     | __main__:<module>:273 - Bot iniciado.
+2025-11-05 10:09:59.207 | INFO     | __main__:cmd_start:112 - /start de user_id=1, tg_id=8091481688
+2025-11-05 10:15:21.862 | INFO     | __main__:<module>:274 - Bot iniciado.
+2025-11-05 10:20:43.486 | INFO     | __main__:<module>:274 - Bot iniciado.
+2025-11-05 10:49:34.049 | INFO     | __main__:<module>:272 - Bot iniciado.
+2025-11-05 10:49:44.249 | INFO     | __main__:cmd_start:111 - /start de user_id=1, tg_id=8091481688
+2025-11-05 10:56:20.761 | INFO     | __main__:cmd_ativar:193 - Token ativado com sucesso: token_id=1, user_id=1, dias=7
+2025-11-05 11:09:15.504 | INFO     | __main__:<module>:510 - Bot iniciado.
+2025-11-05 11:31:19.147 | INFO     | __main__:<module>:520 - Bot iniciado.
+2025-11-05 11:33:21.381 | INFO     | __main__:log_missing_domain:183 - Domínio não encontrado registrado: user_id=1, domain=google.com
+2025-11-05 11:40:53.689 | INFO     | __main__:<module>:732 - Bot iniciado.
+2025-11-05 11:45:02.677 | INFO     | __main__:cmd_start:255 - /start de user_id=1, tg_id=8091481688
+2025-11-05 11:54:18.904 | INFO     | __main__:<module>:604 - Bot iniciado.
+2025-11-05 11:57:31.948 | INFO     | __main__:<module>:604 - Bot iniciado.
+2025-11-05 11:58:08.256 | INFO     | __main__:cmd_start:243 - /start de user_id=1, tg_id=8091481688
+2025-11-05 11:58:08.650 | ERROR    | __main__:safe_reply:229 - Erro ao enviar mensagem para user_id=8091481688: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-11-05 12:00:43.361 | INFO     | __main__:cmd_meu_id:534 - /meu_id de user_id=1, tg_id=8091481688
+2025-11-05 12:14:00.022 | INFO     | __main__:<module>:584 - Bot iniciado.
+2025-11-05 12:21:56.120 | INFO     | __main__:cmd_start:249 - /start de user_id=1, tg_id=8091481688
+2025-11-05 12:21:56.301 | INFO     | __main__:cmd_start:249 - /start de user_id=1, tg_id=8091481688
+2025-11-05 12:36:35.974 | INFO     | __main__:<module>:584 - Bot iniciado.
+2025-11-05 12:40:32.269 | INFO     | __main__:<module>:584 - Bot iniciado.
+2025-11-05 12:47:16.163 | INFO     | __main__:<module>:584 - Bot iniciado.
+2025-11-05 12:51:34.591 | INFO     | __main__:<module>:584 - Bot iniciado.
+2025-11-05 12:53:36.554 | INFO     | __main__:<module>:584 - Bot iniciado.
+2025-11-05 12:53:52.499 | INFO     | __main__:cmd_start:249 - /start de user_id=1, tg_id=8091481688
+2025-11-05 12:55:28.695 | INFO     | __main__:cmd_start:249 - /start de user_id=1, tg_id=8091481688
+2025-11-05 13:07:24.871 | INFO     | __main__:<module>:603 - Bot iniciado.
+2025-11-05 13:08:11.701 | INFO     | __main__:cmd_start:262 - /start de user_id=1, tg_id=8091481688
+2025-11-05 13:08:44.442 | INFO     | __main__:cmd_start:262 - /start de user_id=1, tg_id=8091481688
+2025-11-05 13:09:56.748 | INFO     | __main__:<module>:603 - Bot iniciado.
+2025-11-05 13:10:05.439 | INFO     | __main__:cmd_start:262 - /start de user_id=1, tg_id=8091481688
+2025-11-05 13:10:07.973 | INFO     | __main__:cmd_start:262 - /start de user_id=1, tg_id=8091481688
+2025-11-05 13:11:15.182 | INFO     | __main__:cmd_start:262 - /start de user_id=1, tg_id=8091481688
+2025-11-05 13:19:43.853 | INFO     | __main__:<module>:798 - Bot iniciado.
+2025-11-05 13:21:34.255 | INFO     | __main__:<module>:798 - Bot iniciado.
+2025-11-05 13:22:36.307 | INFO     | __main__:cmd_start:265 - /start de user_id=2, tg_id=7666305087
+2025-11-05 13:22:44.588 | WARNING  | __main__:cmd_ativar:341 - Tentativa de ativar token inválido: ajshhdhshsbd
+2025-11-05 13:23:58.512 | INFO     | __main__:log_missing_domain:201 - Domínio não encontrado registrado: user_id=2, domain=google.com
+2025-11-05 13:37:22.342 | INFO     | __main__:<module>:887 - Bot iniciado.
+2025-11-05 13:38:15.283 | WARNING  | __main__:cmd_ativar:514 - Tentativa de ativar token inválido: djabshbfnd (user_id=2)
+2025-11-05 13:38:21.415 | WARNING  | __main__:cmd_ativar:514 - Tentativa de ativar token inválido: ajahshfhhshs (user_id=2)
+2025-11-05 13:38:39.992 | WARNING  | __main__:temp_ban_user:291 - Usuário 7666305087 temporariamente bloqueado por 24h - motivo: Tentativas repetidas de token inválido
+2025-11-05 13:38:40.322 | WARNING  | __main__:cmd_ativar:514 - Tentativa de ativar token inválido: kaajbsndow (user_id=2)
+2025-11-05 18:54:30.928 | INFO     | __main__:<module>:322 - Bot iniciado com verificação de canal obrigatória.
+2025-11-05 18:57:20.338 | ERROR    | __main__:check_channel_membership:177 - Erro ao verificar canal: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: member list is inaccessible
+2025-11-05 19:02:36.992 | ERROR    | __main__:check_channel_membership:177 - Erro ao verificar canal: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: member list is inaccessible
+2025-11-05 19:05:43.467 | INFO     | __main__:<module>:938 - Bot iniciado.
+2025-11-05 19:05:45.399 | INFO     | __main__:cmd_start:476 - /start de user_id=1, tg_id=8091481688
+2025-11-05 19:06:12.768 | ERROR    | __main__:check_channel_membership:419 - Erro ao verificar participação no canal: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: member list is inaccessible
+2025-11-05 19:10:35.930 | INFO     | __main__:cmd_start:476 - /start de user_id=1, tg_id=8091481688
+2025-11-05 19:23:04.980 | INFO     | __main__:<module>:1057 - Bot iniciado.
+2025-11-05 19:29:20.415 | ERROR    | __main__:is_user_in_required_channel:416 - Erro ao verificar participação no canal: ('Connection aborted.', ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None))
+2025-11-05 19:29:46.060 | INFO     | __main__:cmd_start:559 - /start de user_id=1, tg_id=8091481688
+2025-11-05 19:31:07.461 | INFO     | __main__:cmd_start:559 - /start de user_id=1, tg_id=8091481688
+2025-11-05 19:39:18.196 | INFO     | __main__:<module>:1097 - Bot iniciado.
+2025-11-05 19:48:06.676 | INFO     | __main__:<module>:1115 - Bot iniciado.
